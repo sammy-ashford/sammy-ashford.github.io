@@ -1,0 +1,44 @@
+{{- /* ABOUTME: Base template for the sam theme — wraps all pages with head, header, footer */ -}}
+{{- /* ABOUTME: Loads Lora + Inter from Google Fonts, injects sam.css */ -}}
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "en-us" }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} — {{ .Site.Title }}{{ end }}</title>
+
+  {{- /* Preconnect for Google Fonts performance */ -}}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  {{- /* Theme stylesheet */ -}}
+  <link rel="stylesheet" href="{{ "css/sam.css" | relURL }}">
+
+  {{- /* Canonical */ -}}
+  <link rel="canonical" href="{{ .Permalink }}">
+
+  {{- /* RSS */ -}}
+  {{ range .AlternativeOutputFormats -}}
+    <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
+  {{- end }}
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="site-header-inner">
+      <a href="{{ "/" | relURL }}" class="site-name">{{ .Site.Title }}</a>
+    </div>
+    <hr class="header-rule">
+  </header>
+
+  <main class="site-wrapper" id="main-content">
+    {{- block "main" . }}{{- end }}
+  </main>
+
+  <footer class="site-footer">
+    <p>{{ .Site.Title }}</p>
+  </footer>
+
+</body>
+</html>

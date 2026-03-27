@@ -1,0 +1,29 @@
+{{- /* ABOUTME: Single post template — dateline, title, full content, prev/next nav */ -}}
+{{- /* ABOUTME: Newspaper-style dateline above title; no sidebar, no tags, no share buttons */ -}}
+{{ define "main" }}
+  <article>
+    <header class="post-header">
+      <span class="post-date">{{ .Date.Format "January 2, 2006" }}</span>
+      <h1 class="post-title">{{ .Title }}</h1>
+    </header>
+
+    <div class="post-content">
+      {{ .Content }}
+    </div>
+  </article>
+
+  <nav class="post-nav" aria-label="Post navigation">
+    <div class="post-nav-link post-nav-prev">
+      {{ with .PrevInSection }}
+        <span>Previous</span><br>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      {{ end }}
+    </div>
+    <div class="post-nav-link post-nav-next">
+      {{ with .NextInSection }}
+        <span>Next</span><br>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      {{ end }}
+    </div>
+  </nav>
+{{ end }}

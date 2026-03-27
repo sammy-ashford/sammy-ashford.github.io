@@ -1,0 +1,24 @@
+{{- /* ABOUTME: Home page template — brief intro text + recent posts list */ -}}
+{{- /* ABOUTME: Inherits from baseof.html, renders site description and up to 10 recent posts */ -}}
+{{ define "main" }}
+  <div class="home-intro">
+    <p class="home-intro-text">{{ .Site.Params.description }}</p>
+  </div>
+
+  <p class="home-posts-heading">Recent writing</p>
+
+  <ul class="post-list">
+    {{ $posts := where .Site.RegularPages "Section" "posts" }}
+    {{ range first 10 $posts }}
+      <li class="post-list-item">
+        <span class="post-date">{{ .Date.Format "January 2, 2006" }}</span>
+        <h2 class="post-list-title">
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </h2>
+        {{ with .Summary }}
+          <p class="post-list-excerpt">{{ . | plainify | truncate 160 }}</p>
+        {{ end }}
+      </li>
+    {{ end }}
+  </ul>
+{{ end }}

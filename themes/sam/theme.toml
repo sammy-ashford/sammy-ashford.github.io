@@ -1,0 +1,14 @@
+# ABOUTME: Theme metadata for the sam Hugo theme — literary serif aesthetic for Sam Ashford's blog
+# ABOUTME: Paris Review / n+1 inspired — warm cream, Lora serif, typographic discipline
+
+name = "sam"
+license = "MIT"
+licenselink = "https://opensource.org/licenses/MIT"
+description = "A literary, typographic theme for Sam Ashford's blog. Warm cream background, Lora serif, Paris Review aesthetic."
+homepage = "https://sammy-ashford.github.io"
+tags = ["blog", "literary", "serif", "minimal"]
+features = ["blog"]
+min_version = "0.100.0"
+
+[author]
+  name = "Sam Ashford"

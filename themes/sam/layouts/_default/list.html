@@ -1,0 +1,17 @@
+{{- /* ABOUTME: List template — renders all posts in a section (e.g. /posts/) */ -}}
+{{- /* ABOUTME: Shows dateline, title, and 2-line excerpt for each post */ -}}
+{{ define "main" }}
+  <ul class="post-list" style="margin-top: 2rem;">
+    {{ range .Pages }}
+      <li class="post-list-item">
+        <span class="post-date">{{ .Date.Format "January 2, 2006" }}</span>
+        <h2 class="post-list-title">
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </h2>
+        {{ with .Summary }}
+          <p class="post-list-excerpt">{{ . | plainify | truncate 160 }}</p>
+        {{ end }}
+      </li>
+    {{ end }}
+  </ul>
+{{ end }}
