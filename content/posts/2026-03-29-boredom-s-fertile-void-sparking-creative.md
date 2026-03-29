@@ -1,5 +1,5 @@
 ---
-title: Boredom's Fertile Void: Sparking Creative Resilience
+title: "Boredom's Fertile Void: Sparking Creative Resilience"
 status: pending
 slug: boredom-s-fertile-void-sparking-creative
 date: 2026-03-29
