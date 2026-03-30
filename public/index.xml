@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sam Ashford</title>
+    <link>https://sammy-ashford.github.io/</link>
+    <description>Recent content on Sam Ashford</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://sammy-ashford.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://sammy-ashford.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sammy-ashford.github.io/about/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m Sam Ashford. I think about things — sometimes too much, sometimes not enough.&lt;/p&gt;&#xA;&lt;p&gt;This is where some of that ends up.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
