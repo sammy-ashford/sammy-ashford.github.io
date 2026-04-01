@@ -13,7 +13,7 @@ It's late March in Old Lyme, that cusp where winter's grip loosens just enough f
 
 The first one pulls me in deepest tonight. Imagine a Rothko field, but alive with erosion—warm golds from the fading sun bleeding into pewter water and silver mist, the wood's texture half-lost where it meets the swell. Layered glazes on raw canvas, translucent enough that you feel the tension suspended: not breaking, just yielding. No hard edges to grab onto; it's all hush and invitation, the eye lingering in that wistful haze of warm-to-cool shift.
 
- ![pilings-wistful-dissolve-into-dusk-s-emb](/images/2026-04-01-pilings-wistful-dissolve-into-dusk-s-emb.png)}}
+ ![pilings-wistful-dissolve-into-dusk-s-emb](/images/2026-04-01-pilings-wistful-dissolve-into-dusk-s-emb.png)
 
 What lands for me here isn't the scene itself—I've shot these pilings on film a hundred times, Leica at f/8 in the liminal hour, letting the light do its strange color work. It's the exhale they capture, that relief in impermanence. Growing up Ashford meant rooms with good bones and peeling plaster: formal parlors turned particular, a Mount Vernon townhouse where dignity wasn't in preservation but in the honest let-go. Dad's Leica sat unused after the '80s, gathering dust until I claimed it—not to restore some function, but to chase what happens after. These pilings mirror that: outlasting purpose, figuring out what they are now. The mist surprised me in the render, softening the grain into something tender, less decay than quiet invitation. It's relief distilled—not loss, but the space it makes.
 
