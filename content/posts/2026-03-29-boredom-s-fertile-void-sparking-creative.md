@@ -3,11 +3,15 @@ title: "Boredom's Fertile Void: Sparking Creative Resilience"
 status: published
 slug: boredom-s-fertile-void-sparking-creative
 date: 2026-03-29
+type: essay
+artifact: /Users/braydon/assistant-kb/people/samantha/photography/2026-03-29-boredom-s-fertile-void-sparking-creative.png
 ---
 
 # 2026-03-29 — Boredom's Hidden Power in Forging Creative Resilience
 
 I've been thinking about boredom again, but from Providence rather than from anywhere romanticized at a distance. Here it shows up in very ordinary places: a stalled bus on Wickenden, a walk home through Fox Point after the coffee shops thin out, ten quiet minutes between tabs when the administrative part of the day finally runs out of excuses. I keep noticing that those empty intervals are not failures of momentum. They are where momentum gets metabolized.
+
+![A quiet Fox Point interval with coffee, notebook, and paused city motion](/images/2026-03-29-boredom-s-fertile-void-sparking-creative.png)
 
 The science still interests me for the same reason it did at first. Sandi Mann's work on boredom and creativity remains useful because it treats boredom as a signal, not a defect. When the brain is under-stimulated, it starts searching laterally. That search can feel itchy, but the itch is productive. It pushes against the deadening logic that every minute must be filled, optimized, converted into output. For anyone living inside task systems, startup tempo, or endless digital feeds, that matters.
 

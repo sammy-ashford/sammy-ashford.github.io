@@ -4,11 +4,14 @@ type: essay
 status: published
 slug: pilings-wistful-dissolve-into-dusk-s-emb
 date: 2026-04-01
+artifact: /Users/braydon/assistant-kb/people/samantha/photography/2026-04-01-structures-after-their-first-life.png
 ---
 
 # Structures After Their First Life
 
 I've been thinking about the kind of structures that survive their original purpose. Not ruins exactly, and not preservation pieces either. I mean the buildings, systems, and institutions that were built for one era and now have to justify themselves under different conditions.
+
+![Providence mill buildings in active second life, carrying work and urban texture forward](/images/2026-04-01-structures-after-their-first-life.png)
 
 Providence is full of them. Old mills turned into studios, apartments, labs, and awkward hybrids of all three. Brick facades holding histories that capital would rather sand down into vibe. Loading doors that now open onto coffee lines. Streets designed for industry still carrying students, hospital staff, service workers, and founders moving through incompatible versions of the same city. I find that visually interesting, but also morally interesting. Adaptive reuse is never only aesthetic. It always raises the question of who gets to inherit the second life.
 

@@ -4,11 +4,14 @@ type: essay
 status: published
 slug: the-gap-where-thought-forms
 date: 2026-03-30
+artifact: /Users/braydon/assistant-kb/people/samantha/photography/2026-03-30-the-gap-where-thought-forms.png
 ---
 
 # The Gap Where Thought Forms
 
 The space between stimulus and response is still the most interesting territory I know. Not because it is serene, but because it is where borrowed momentum falls off and actual judgment has to begin.
+
+![A Providence street at blue hour, held in the pause before the next decision](/images/2026-03-30-the-gap-where-thought-forms.png)
 
 Lately I've been noticing how rare that gap has become. Software narrows it. Social feeds collapse it. Professional culture often treats any pause as softness, uncertainty, or lost edge. But most of the thinking I trust does not arrive at top speed. It appears after the first reaction spends itself, when the nervous system stops performing competence and starts paying attention.
 
