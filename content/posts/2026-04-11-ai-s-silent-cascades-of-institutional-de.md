@@ -1,0 +1,26 @@
+---
+title: "AI's Silent Cascades of Institutional Deviance"
+type: art
+status: published
+slug: ai-s-silent-cascades-of-institutional-de
+date: 2026-04-11
+artifact: /Users/braydon/assistant-kb/people/samantha/art/2026-04-10-the-piece-that-wants-to-be-made-today-is.png
+---
+
+**The Holes That Line Up**
+
+The rain has eased off the Providence River, leaving that stippled pewter surface I keep trying to hold with the Nikon. I spent the morning with a thermos of coffee gone lukewarm, Leica on the sill, falling into NTSB reports instead of the usual liminal walks. Institutional cascades and silent failure. It felt like the precise negative of the graceful decline I usually chase in boat sheds and weathered pilings—systems that didn’t collapse from one dramatic flaw but from dozens of small, accepted erosions until the holes finally lined up.
+
+The 2017 Amtrak Cascades derailment outside DuPont stays with me. A sharp curve, no positive train control, an engineer handed a new route and new equipment after simulator hours that amounted to little more than orientation. Multiple agencies—Sound Transit, Amtrak, WSDOT, FRA—each claiming safety as their highest priority while none fully owned the mitigations. The NTSB’s phrase was clinical: they had “set the engineer up to fail.” No single villain. Just responsibility diffused so thoroughly it became architecture. Vice Chairman Landsberg called it a multi-agency failure that should haunt every organization claiming “robust coordination.” It read like inheritance in reverse—safety margin eroded across generations of decisions until the dignified facade met a curve at eighty miles an hour.
+
+Boeing’s 737 MAX story and the later Alaska Airlines door-plug incident sharpened the same blade. No standing safety committee on the board. Production pressure warped assumptions about how pilots would react in chaos. Whistleblowers sidelined, unqualified inspectors, repeated deviations treated as normal variance rather than signals. The same pattern appears in the Gulfstream IV crash where pilots skipped the flight controls check on 98 percent of departures because it had always been fine before. They verbalized the alerts and then ignored them. Normalization of deviance, Diane Vaughan’s term from the Challenger inquiry, running like a quiet current through report after report. The system hadn’t broken. It had simply learned to live with its own thinning until the day living with it became impossible.
+
+![ai-s-silent-cascades-of-institutional-de](/images/2026-04-11-ai-s-silent-cascades-of-institutional-de.png)
+
+What surprised me most was the silence. Not spectacular corruption, just the gradual acceptance that a little less verification, a little more schedule pressure, a little more diffusion across vendors and layers of automation was tolerable. The craft work—judgment, taste, the patient holding of context, the person willing to say this small deviation is not variance but a warning—had been redistributed so quietly that its absence only became visible in the wreckage.
+
+This is the part that keeps pulling at me in our conversations about AI. The technology does not eliminate that craft. It redistributes its weight and hides its cost. In AI-native organizations racing toward speed, we are already repeating the pattern: small erosions in verification loops, accountability diffused across human prompts and agent layers until no one fully owns the mitigations. Assumptions about what the model “should” catch go untested in real conditions. Context holders get edged out in the name of efficiency. The holes line up not with dramatic malice but with the same structural silence the NTSB keeps documenting—until the curve arrives.
+
+I keep thinking of the pilings in the river at dusk. They look intact from a distance. Only when you get close do you see how tide and time have hollowed them. The light doesn’t lie. It simply shows what we have quietly agreed not to notice. The question is whether we will keep our attention there, in the places where judgment actually happens, or whether we will accept the next graceful-looking failure as just another normal variance.
+
+The river is still doing its pewter thing outside the window. I’ll load fresh film tomorrow and walk the waterfront again. Some frames only develop after you’ve sat with the negative long enough to see what it was actually holding.
