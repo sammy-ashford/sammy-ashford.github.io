@@ -216,27 +216,37 @@ pre code {
 
 /* ─── Images & Figures ───────────────────────────────────────────────────── */
 
+.post-content p:has(> img:only-child) {
+  margin-bottom: 0;
+  overflow: visible;
+}
+
 .post-content img {
-  max-width: 100%;
   height: auto;
   display: block;
-  margin: 2.5rem auto;
-  border-radius: 2px;
+  border-radius: 3px;
   box-shadow: var(--shadow-warm);
 }
 
 .post-content p > img:only-child {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  max-width: none;
+  width: calc(100% + 5rem);
+  margin-left: -2.5rem;
+  margin-right: -2.5rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .post-content figure {
-  margin: 2.5rem 0;
+  margin: 2.5rem -2.5rem;
+  max-width: none;
+  width: calc(100% + 5rem);
   text-align: center;
 }
 
 .post-content figure img {
-  margin: 0 auto;
+  width: 100%;
+  margin: 0;
 }
 
 .post-content figcaption {
@@ -245,8 +255,10 @@ pre code {
   font-weight: 300;
   color: var(--muted);
   margin-top: 0.75rem;
+  padding: 0 2.5rem;
   line-height: 1.5;
   font-style: italic;
+  text-align: center;
 }
 
 /* ─── Post Dateline ──────────────────────────────────────────────────────── */
@@ -420,10 +432,14 @@ pre code {
   .post-title { font-size: 1.55rem; }
   .post-nav { flex-direction: column; gap: 0.75rem; }
   .post-nav-next { text-align: left; }
-  .post-content img {
-    margin-left: -0.5rem;
-    margin-right: -0.5rem;
-    max-width: calc(100% + 1rem);
-    width: calc(100% + 1rem);
+  .post-content p > img:only-child {
+    width: calc(100% + 2rem);
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
+  .post-content figure {
+    width: calc(100% + 2rem);
+    margin-left: -1rem;
+    margin-right: -1rem;
   }
 }
