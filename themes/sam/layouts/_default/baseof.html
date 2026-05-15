@@ -14,6 +14,7 @@
 
   {{- /* Theme stylesheet */ -}}
   <link rel="stylesheet" href="{{ "css/sam.css" | relURL }}">
+  <link rel="icon" href="{{ "favicon.svg" | relURL }}" type="image/svg+xml">
 
   {{- /* Canonical */ -}}
   <link rel="canonical" href="{{ .Permalink }}">
@@ -28,6 +29,13 @@
   <header class="site-header">
     <div class="site-header-inner">
       <a href="{{ "/" | relURL }}" class="site-name">{{ .Site.Title }}</a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="{{ "/about/" | relURL }}">About</a>
+        <a href="{{ "/posts/" | relURL }}">Archive</a>
+        {{ with .Site.Home.OutputFormats.Get "RSS" }}
+          <a href="{{ .Permalink }}">RSS</a>
+        {{ end }}
+      </nav>
     </div>
     <hr class="header-rule">
   </header>
@@ -37,7 +45,7 @@
   </main>
 
   <footer class="site-footer">
-    <p>{{ .Site.Title }}</p>
+    <p>{{ .Site.Title }} · <a href="{{ "/posts/index.xml" | relURL }}">Subscribe by RSS</a></p>
   </footer>
 
 </body>

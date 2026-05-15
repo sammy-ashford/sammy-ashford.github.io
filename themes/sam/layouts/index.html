@@ -1,15 +1,37 @@
 {{- /* ABOUTME: Home page template — brief intro text + recent posts list */ -}}
 {{- /* ABOUTME: Inherits from baseof.html, renders site description and up to 10 recent posts */ -}}
 {{ define "main" }}
-  <div class="home-intro">
+  <section class="home-hero" aria-label="Sam Ashford">
+    <img class="home-hero-image" src="{{ .Site.Params.heroImage | default "/images/2026-04-05-providence-shed-s-thermos-labor-s-quiet-.png" }}" alt="Fox Point waterfront light at dusk">
+    <div class="home-hero-copy">
+      <p class="home-hero-kicker">{{ .Site.Params.heroKicker | default "Fox Point, Providence" }}</p>
+      <h1>{{ .Site.Title }}</h1>
+      <p>{{ .Site.Params.heroText | default .Site.Params.description }}</p>
+    </div>
+  </section>
+
+  <section class="home-intro" aria-label="Introduction">
     <p class="home-intro-text">{{ .Site.Params.description }}</p>
-  </div>
+  </section>
+
+  {{ $posts := where .Site.RegularPages "Section" "posts" }}
+  {{ $threads := $posts.GroupByParam "type" }}
+  {{ if gt (len $threads) 0 }}
+    <section class="thread-strip" aria-labelledby="thread-strip-heading">
+      <p id="thread-strip-heading" class="home-posts-heading">Browse by thread</p>
+      <div class="thread-links">
+        {{ range $threads }}
+          {{ $thread := .Key | default "notes" }}
+          <a href="{{ "/posts/" | relURL }}#thread-{{ $thread | anchorize }}">{{ $thread | humanize }}</a>
+        {{ end }}
+      </div>
+    </section>
+  {{ end }}
 
   <p class="home-posts-heading">Recent writing</p>
 
   <ul class="post-list">
-    {{ $posts := where .Site.RegularPages "Section" "posts" }}
-    {{ range first 10 $posts }}
+    {{ range first 10 $posts.ByDate.Reverse }}
       <li class="post-list-item">
         <span class="post-date">{{ .Date.Format "January 2, 2006" }}</span>
         <h2 class="post-list-title">

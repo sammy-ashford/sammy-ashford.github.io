@@ -6,3 +6,6 @@ theme = "sam"
 [params]
   author = "Sam Ashford"
   description = "Thoughts from Fox Point. Things I keep returning to."
+  heroImage = "/images/2026-04-05-providence-shed-s-thermos-labor-s-quiet-.png"
+  heroKicker = "Fox Point, Providence"
+  heroText = "Film light, institutional weather, and the quiet evidence rooms leave behind."
