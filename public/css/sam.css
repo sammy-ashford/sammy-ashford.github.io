@@ -530,6 +530,21 @@ pre code {
   border-bottom: 1px solid var(--border);
 }
 
+.page-portrait {
+  margin: 0 0 2rem;
+}
+
+.page-portrait img {
+  display: block;
+  width: min(100%, 620px);
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  object-position: 50% 45%;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-warm);
+  filter: sepia(0.14) saturate(0.78) contrast(0.94);
+}
+
 .archive-header {
   max-width: var(--max-w);
   padding: 1.8rem 0 0.75rem;

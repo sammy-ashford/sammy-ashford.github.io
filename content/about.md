@@ -1,6 +1,9 @@
 ---
 title: "About"
+type: "page"
 layout: "page"
+image: "/images/sam-camera-waterfront.png"
+image_alt: "Sam at the waterfront with a rangefinder camera at dusk"
 ---
 
 I'm Sam Ashford. I shoot film and think about institutions and light in the same register.
