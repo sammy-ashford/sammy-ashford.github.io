@@ -1,0 +1,10 @@
+{{- $src := "" -}}
+{{- $matches := findRE `!\[[^\]]*\]\([^)]+\)` .RawContent 1 -}}
+{{- with index $matches 0 -}}
+  {{- $src = replaceRE `^!\[[^\]]*\]\(([^)]+)\)$` "$1" . -}}
+{{- end -}}
+{{- with $src -}}
+  <a class="post-list-thumbnail" href="{{ $.Permalink }}" aria-hidden="true" tabindex="-1">
+    <img src="{{ . | relURL }}" alt="">
+  </a>
+{{- end -}}
