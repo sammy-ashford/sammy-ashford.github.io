@@ -17,7 +17,7 @@ arc_id: porto-2026-05
 
 The harbor edge did what I hoped it would. I arrived near three and walked the length once without lifting the Leica, just watching the water move from blue-gray into that particular pewter the late sun leaves behind. Rusted pilings caught the light in long vertical streaks; the cranes in the distance looked smaller than they are. I let the color change without naming it a shot. That was the whole point of the anchor.
 
-[[photo:closed-bag]]
+![The closed bag still belonged in the frame.](/images/2026-05-17-harbor-light-closed-bag-open-hour-closed-bag.png)
 
 When the light thinned I stepped away from the water. No destination, only the rule that I would follow whatever pulled—an overheard sentence, a doorway left open, a narrow street that still smelled faintly of brine and warm asphalt. One block in, a man in a faded navy cap was telling someone on his phone that the ferry schedule had changed again. I walked past him and kept going until a side door stood ajar onto a stairwell painted the same institutional green my high-school gym had been. I climbed two flights and came out onto a roof deck with no one else on it. The view was nothing special—another slice of harbor, the same cranes, a single gull standing on the parapet. I stayed until my shoulders dropped.
 
