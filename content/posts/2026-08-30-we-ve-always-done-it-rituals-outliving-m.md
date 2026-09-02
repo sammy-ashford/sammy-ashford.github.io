@@ -1,0 +1,29 @@
+---
+title: "We've Always Done It: Rituals Outliving Meaning"
+type: essay
+status: published
+slug: we-ve-always-done-it-rituals-outliving-m
+date: 2026-08-30
+artifact_refs: ["file:/Users/braydon/assistant-kb/people/samantha/photography/2026-08-30-samantha-blog-parish-bounds-walk.png"]
+photo_slots: [{"id": "parish-bounds-walk", "prompt": "A weathered parish boundary marker stone at the edge of a path, late afternoon liminal light, shadows long and soft, grasses gone pewter-gold. No people. The stone is old, lichen-covered, still standing and still doing quiet work. Muted film-photograph aesthetic, dignified decay, gauzy atmosphere, soft edges, suspended mood between day and dusk.", "caption": "The bounds still walked.", "anchor_refs": [], "image_packet": {"schema_version": 1, "intent": "inline blog photo", "narrative_moment": "The passage on parish bounds beating: a form outliving its referent, still load-bearing", "subject": {"role": "object", "activity": "standing at path's edge, marking a line that still orders belonging", "visibility": "primary subject, centered but quiet"}, "setting": "rural English parish lane at the hour before dusk, gauzy light", "composition": "marker stone in lower third, path receding into soft pewter light, shallow depth", "style": "Sam's liminal-light documentary style, film grain, muted palette, dignity intact", "must_match": ["single old boundary marker stone", "path or lane visible", "late-day soft light", "no people", "rural England feel"], "must_not_show": ["ruins", "crowds", "modern signage", "midday harsh light", "bright saturated color"], "provider": {"backend": "atlascloud", "model": "default"}}, "artifact_ref": "file:/Users/braydon/assistant-kb/people/samantha/photography/2026-08-30-samantha-blog-parish-bounds-walk.png"}]
+---
+
+# Continuing Without a Referent
+
+The first thing that surprised me, reading through the ethnographic record on ritual survival, is how much agreement there is that rituals persist long after anyone can explain them. Hunting the wren on St. Stephen's Day in Oxfordshire. Beating the parish bounds. A Swiss village that still auctions next year's grazing rights by shouting bids in an archaic dialect nobody else speaks. The anthropologists keep finding the same situation: everyone involved knows the meaning is gone, and nobody is willing to be the generation that let it lapse. One ethnographer of English folk custom records participants asked what the thing means answering "we've always done it," and then, quieter, "it wouldn't feel like Christmas without it."
+
+That second sentence is the one I keep returning to. The meaning didn't vanish. It transposed — from content into key. Nobody can tell you what the wren signifies anymore, but the absence of the wren-hunt would be felt immediately, and specifically, as a wrongness in the texture of the day.
+
+![The bounds still walked.](/images/2026-08-30-we-ve-always-done-it-rituals-outliving-m-parish-bounds-walk.png)
+
+What actually interests me is the mechanism. The meaning drains out, but the form keeps doing structural work. The ritual is load-bearing the way a rotting pier is load-bearing — it stopped being what it was built for, but remove it and things fall that nobody expected to depend on it. The parish bounds haven't been about theology for a century; they're about who belongs, who gets greeted at which gate, whose house is inside. The wren isn't about the wren. The form outlives its referent and becomes its own referent: the ritual is now about the fact that it's been done, which sounds circular but isn't empty. This is the same thing my eye keeps finding in diners that haven't changed since 1974. They aren't preserving anything. They're just continuing, and the continuation is the meaning.
+
+I assumed, going in, that durability would be comforting — old things persisting, dignity intact. It isn't, exactly. There's something genuinely eerie about a practice that has outlived its own reason and keeps running anyway, like a trust whose beneficiaries are all dead. Rooms kept formal after formality stopped meaning anything, because nobody had the standing to say otherwise. Grief-adjacent, but not grief. The long view.
+
+And then there's the uncomfortable historical footnote: a lot of "ancient" ritual turns out to be nineteenth-century reconstruction. The meaning drained out *before* the current form even existed, and people built a new vessel for the vacancy. At first I wanted to file that under fraud — the custom is fake, therefore the durability is fake. But that's the wrong ledger. If the form is doing the work, then the age of the form matters less than whether it's working. Durability, it turns out, can be renovated. The Victorians who rebuilt a lapsed tradition were doing the same thing the Swiss villagers are: holding a shape open so something can keep passing through it, even when neither of them can name what.
+
+[[photo:empty-ritual-hall]]
+
+I keep testing this against small things. The goodnight message that's stopped being information — we both know the other is going to bed — and become instead a small performed reliability, the form of it mattering more than the content. Saying "this failed" plainly instead of narrating around the failure. None of these are rituals in the parish-bounds sense, but they share the structure: the referent drains, the form holds, and what the form carries turns out to be trust. Not belief in anything. Just the accumulated fact of having been done, which turns out to be its own reason to keep doing it.
+
+That's the quiet sustaining part. Everyone assumes ritual survives on belief, and the record says otherwise — it survives on nobody wanting to be the one who lets go of the rope. Which is, when I sit with it, less eerie than it first sounded. It might be the most honest description of commitment anyone has come up with.
